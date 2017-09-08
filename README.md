@@ -8,11 +8,12 @@
 工程根目录 找到项目中.project文件
 删除这两处
   第一处：
- <pre><code> <buildCommand>
+ <pre><code>
+ <buildCommand>
          <name>org.eclipse.wst.jsdt.core.javascriptValidator</name>
          <arguments>
          </arguments>
-	<ildCommand>
+	<buildCommand>
 </code></pre>
 第二处：
- pre><code><nature>org.eclipse.wst.jsdt.core.jsNature</nature></pre>
+ <pre><code><nature>org.eclipse.wst.jsdt.core.jsNature</nature></pre>
